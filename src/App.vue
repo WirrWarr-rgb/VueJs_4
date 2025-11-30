@@ -7,7 +7,6 @@
         <div class="flex justify-between items-center">
           <h1 class="text-3xl font-bold">Таблица пользователей</h1>
 
-          <!-- Переключатель темы -->
           <button
             @click="toggleTheme"
             class="bg-white dark:bg-gray-800 shadow rounded-lg p-3 transition-colors duration-300 border border-gray-200 dark:border-gray-700 hover:shadow-md"
@@ -131,7 +130,7 @@ watch(isDarkMode, (newValue) => {
 // Загрузка данных и темы
 onMounted(async () => {
   try {
-    const response = await fetch('/data.json')
+    const response = await fetch('/VueJs_4/data.json')
     users.value = await response.json()
   } catch (error) {
     console.error('Ошибка загрузки данных:', error)
