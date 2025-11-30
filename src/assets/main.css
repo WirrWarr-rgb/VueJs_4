@@ -1,0 +1,317 @@
+/* Таблица с синей цветовой схемой */
+.table-container {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.base-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.dark .base-table {
+  background: #1f2937;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* Заголовки таблицы - СИНИЕ */
+.header-cell {
+  padding: 1rem;
+  text-align: left;
+  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+  color: white;
+  font-weight: 600;
+  border-bottom: 2px solid #1d4ed8;
+}
+
+.dark .header-cell {
+  background: linear-gradient(135deg, #1e40af, #1e3a8a);
+  border-bottom-color: #1e3a8a;
+}
+
+.header-cell:not(:last-child) {
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Ячейки таблицы - СИНИЕ */
+.table-cell {
+  padding: 1rem;
+  border-bottom: 1px solid #374151;
+  background: #111827;
+  color: #f9fafb;
+  font-weight: 500;
+}
+
+.dark .table-cell {
+  background: #111827;
+  color: #f9fafb;
+  border-bottom-color: #374151;
+}
+
+.table-cell:not(:last-child) {
+  border-right: 1px solid #374151;
+}
+
+.dark .table-cell:not(:last-child) {
+  border-right-color: #374151;
+}
+
+.table-row:hover .table-cell {
+  background: #1f2937;
+}
+
+.dark .table-row:hover .table-cell {
+  background: #1f2937;
+}
+
+/* Строка фильтров */
+.filter-row {
+  background: #eff6ff !important;
+}
+
+.dark .filter-row {
+  background: #111827 !important;
+}
+
+.filter-cell {
+  padding: 0.5rem 1rem !important;
+  border-bottom: 1px solid #dbeafe !important;
+}
+
+.dark .filter-cell {
+  border-bottom-color: #1e40af !important;
+}
+
+.filter-cell:not(:last-child) {
+  border-right: 1px solid #dbeafe !important;
+}
+
+.dark .filter-cell:not(:last-child) {
+  border-right-color: #1e40af !important;
+}
+
+/* Элементы управления */
+.filter-input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #bfdbfe;
+  border-radius: 0.375rem;
+  background: white;
+  color: #1e3a8a;
+  font-size: 0.875rem;
+}
+
+.dark .filter-input {
+  background: #1e40af;
+  border-color: #3730a3;
+  color: #dbeafe;
+}
+
+.filter-input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+.filter-input::placeholder {
+  color: #6b7280;
+}
+
+.dark .filter-input::placeholder {
+  color: #9ca3af;
+}
+
+/* Select элементы */
+select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #bfdbfe;
+  border-radius: 0.375rem;
+  background: white;
+  color: #1e3a8a;
+  cursor: pointer;
+}
+
+.dark select {
+  background: #1e40af;
+  border-color: #3730a3;
+  color: #dbeafe;
+}
+
+select:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+/* Кнопки */
+.btn-reset {
+  padding: 0.625rem 1.25rem;
+  background: #dc2626;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.875rem;
+  border: 1px solid #b91c1c;
+}
+
+.btn-reset:hover {
+  background: #b91c1c;
+  transform: translateY(-1px);
+}
+
+.dark .btn-reset {
+  background: #dc2626;
+  border-color: #b91c1c;
+}
+
+.dark .btn-reset:hover {
+  background: #b91c1c;
+}
+
+/* Сортировка */
+.sort-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+}
+
+.sort-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.sort-btn.active {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/* Контент заголовков */
+.header-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.header-default {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.header-text {
+  font-weight: 600;
+}
+
+/* Управляющие элементы таблицы */
+.table-controls {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.dark .table-controls {
+  border-top-color: #374151;
+}
+
+.results-count {
+  color: #6b7280;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.dark .results-count {
+  color: #9ca3af;
+}
+
+/* Пустая ячейка */
+.empty-cell {
+  padding: 2.5rem 1rem;
+  text-align: center;
+  color: #6b7280;
+  font-style: italic;
+  background: #f8fafc;
+}
+
+.dark .empty-cell {
+  color: #9ca3af;
+  background: #374151;
+}
+
+/* Аватар */
+.avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 9999px;
+  object-fit: cover;
+}
+
+/* Ссылки */
+.email-link {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.dark .email-link {
+  color: #60a5fa;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .base-table {
+    min-width: 600px;
+  }
+
+  .header-cell,
+  .table-cell {
+    padding: 0.75rem;
+  }
+
+  .table-controls {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+}
+
+/* Скроллбар */
+.table-container::-webkit-scrollbar {
+  height: 6px;
+}
+
+.table-container::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 3px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+  background: #bfdbfe;
+  border-radius: 3px;
+}
+
+.dark .table-container::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+.dark .table-container::-webkit-scrollbar-thumb {
+  background: #374151;
+}

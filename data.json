@@ -1,0 +1,182 @@
+[
+  {
+    "firstName": "Алексей",
+    "lastName": "Смирнов",
+    "email": "alexey.smirnov@example.com",
+    "phone": "+7 912 345 67 89",
+    "image": "https://picsum.photos/200?random=1",
+    "marketCap": 1500000000,
+    "developedCountries": ["Germany", "France", "Japan", "USA"]
+  },
+  {
+    "firstName": "Мария",
+    "lastName": "Иванова",
+    "email": "maria.ivanova@example.com",
+    "phone": "8 (912) 567-89-01",
+    "image": "https://picsum.photos/200?random=2",
+    "marketCap": 25000000,
+    "developedCountries": ["United Kingdom", "Sweden", "Canada"]
+  },
+  {
+    "firstName": "Игорь",
+    "lastName": "Кузнецов",
+    "email": "igor.kuznetsov@example.com",
+    "phone": "+7-903-111-22-33",
+    "image": "https://picsum.photos/200?random=3",
+    "marketCap": 30000000,
+    "developedCountries": ["USA", "Germany"]
+  },
+  {
+    "firstName": "Ольга",
+    "lastName": "Соколова",
+    "email": "olga.sokolova@example.com",
+    "phone": "+7 921 555 44 33",
+    "image": "https://picsum.photos/200?random=4",
+    "marketCap": 700000000,
+    "developedCountries": ["Norway", "Finland", "France", "Australia"]
+  },
+  {
+    "firstName": "Дмитрий",
+    "lastName": "Попов",
+    "email": "dmitry.popov@example.com",
+    "phone": "8 950 222 11 00",
+    "image": "https://picsum.photos/200?random=5",
+    "marketCap": 8000000,
+    "developedCountries": ["Canada", "Japan", "Switzerland"]
+  },
+  {
+    "firstName": "Анна",
+    "lastName": "Новикова",
+    "email": "anna.novikova@example.com",
+    "phone": "+7 (915) 999-88-77",
+    "image": "https://picsum.photos/200?random=6",
+    "marketCap": 470000000,
+    "developedCountries": ["Germany", "France", "Denmark"]
+  },
+  {
+    "firstName": "Сергей",
+    "lastName": "Морозов",
+    "email": "sergey.morozov@example.com",
+    "phone": "8 901 234 56 78",
+    "image": "https://picsum.photos/200?random=7",
+    "marketCap": 120000000,
+    "developedCountries": ["USA", "Australia"]
+  },
+  {
+    "firstName": "Екатерина",
+    "lastName": "Лебедева",
+    "email": "ekaterina.lebedeva@example.com",
+    "phone": "+7-916-888-77-66",
+    "image": "https://picsum.photos/200?random=8",
+    "marketCap": 93000000,
+    "developedCountries": ["France", "Germany", "Italy"]
+  },
+  {
+    "firstName": "Владимир",
+    "lastName": "Киселёв",
+    "email": "vladimir.kiselev@example.com",
+    "phone": "+7 (909) 777 66 55",
+    "image": "https://picsum.photos/200?random=9",
+    "marketCap": 30000000,
+    "developedCountries": ["Canada", "United Kingdom"]
+  },
+  {
+    "firstName": "Елена",
+    "lastName": "Козлова",
+    "email": "elena.kozlova@example.com",
+    "phone": "8 (904) 333-22-11",
+    "image": "https://picsum.photos/200?random=10",
+    "marketCap": 450000000,
+    "developedCountries": ["USA", "Sweden", "Finland"]
+  },
+  {
+    "firstName": "Роман",
+    "lastName": "Макаров",
+    "email": "roman.makarov@example.com",
+    "phone": "+7 922 444 33 22",
+    "image": "https://picsum.photos/200?random=11",
+    "marketCap": 25000000,
+    "developedCountries": ["Japan", "Australia"]
+  },
+  {
+    "firstName": "Татьяна",
+    "lastName": "Андреева",
+    "email": "tatiana.andreeva@example.com",
+    "phone": "+7 (981) 222-33-44",
+    "image": "https://picsum.photos/200?random=12",
+    "marketCap": 670000000,
+    "developedCountries": ["Germany", "USA", "Canada"]
+  },
+  {
+    "firstName": "Павел",
+    "lastName": "Волков",
+    "email": "pavel.volkov@example.com",
+    "phone": "8-913-123-45-67",
+    "image": "https://picsum.photos/200?random=13",
+    "marketCap": 32000000,
+    "developedCountries": ["Switzerland", "France"]
+  },
+  {
+    "firstName": "Юлия",
+    "lastName": "Богданова",
+    "email": "yulia.bogdanova@example.com",
+    "phone": "+7 999 555-44-33",
+    "image": "https://picsum.photos/200?random=14",
+    "marketCap": 950000000,
+    "developedCountries": ["USA", "Germany", "Japan"]
+  },
+  {
+    "firstName": "Михаил",
+    "lastName": "Егоров",
+    "email": "mikhail.egorov@example.com",
+    "phone": "+7 (910) 876 54 32",
+    "image": "https://picsum.photos/200?random=15",
+    "marketCap": 8000000,
+    "developedCountries": ["United Kingdom", "Canada"]
+  },
+  {
+    "firstName": "Анастасия",
+    "lastName": "Никитина",
+    "email": "anastasia.nikitina@example.com",
+    "phone": "8 903 000-11-22",
+    "image": "https://picsum.photos/200?random=16",
+    "marketCap": 780000000,
+    "developedCountries": ["Germany", "France", "Italy", "Norway"]
+  },
+  {
+    "firstName": "Виктор",
+    "lastName": "Фролов",
+    "email": "victor.frolov@example.com",
+    "phone": "+7-905-123-00-99",
+    "image": "https://picsum.photos/200?random=17",
+    "marketCap": 30000000,
+    "developedCountries": ["Australia", "Switzerland"]
+  },
+  {
+    "firstName": "Дарья",
+    "lastName": "Зайцева",
+    "email": "daria.zaitseva@example.com",
+    "phone": "8 (929) 111 22 33",
+    "image": "https://picsum.photos/200?random=18",
+    "marketCap": 1500000000,
+    "developedCountries": ["USA", "Canada", "Japan"]
+  },
+  {
+    "firstName": "Константин",
+    "lastName": "Беляев",
+    "email": "konstantin.belyaev@example.com",
+    "phone": "+7 968 654-32-10",
+    "image": "https://picsum.photos/200?random=19",
+    "marketCap": 25000000,
+    "developedCountries": ["Sweden", "Finland"]
+  },
+  {
+    "firstName": "Полина",
+    "lastName": "Григорьева",
+    "email": "polina.grigorieva@example.com",
+    "phone": "8-927-987-65-43",
+    "image": "https://picsum.photos/200?random=20",
+    "marketCap": 700000000,
+    "developedCountries": ["USA", "Germany", "France"]
+  }
+]
